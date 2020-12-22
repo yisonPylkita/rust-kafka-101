@@ -1,0 +1,11 @@
+[package]
+authors = ["Wojciech Bartnik <yisonPylkita@gmail.com>"]
+edition = "2018"
+name = "rust-kafka-101"
+version = "0.1.0"
+
+[dependencies]
+clap = "2.33.3"
+log = "0.4.11"
+rdkafka = "0.24"
+tokio = {version = "0.2", features = ["macros", "tcp", "dns", "io-util"]}
